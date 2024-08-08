@@ -1,7 +1,12 @@
+import { useState } from 'react'
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
+import Listagem from './assets/pages/Listagem';
 
 const App = () => {
+
+   const [color] = useState("#0000FF")
+   document.body.style.backgroundColor = color
 
   return (
     <Routes>
@@ -10,4 +15,4 @@ const App = () => {
   )
   }
 
-export default App
+export default App;
