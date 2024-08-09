@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Listagem from './assets/pages/Listagem';
+import Listagem from './pages/Listagem';
 
 const App = () => {
 

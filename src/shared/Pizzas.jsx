@@ -1,8 +1,8 @@
-import Margherita from "../assets/images/Margherita.png"
-import Pepperoni from "../assets/images/Pepperoni.png"
-import Havaiana from "../assets/images/Havaiana.png"
-import Portuguesa from "../assets/images/Portuguesa.png"
-import Calabresa from "../assets/images/Calabresa.png"
+import Margherita from "../assets/margherita.png"
+import Pepperoni from "../assets/pepperoni.png"
+import Havaiana from "../assets/havaiana.png"
+import Portuguesa from "../assets/portuguesa.png"
+import Calabresa from "../assets/calabresa.png"
 
 const Pizzas = [
 
@@ -23,9 +23,6 @@ const Pizzas = [
         "nome": "Havaiana",
         "descricao": "Pizza com molho de tomate, queijo mozzarella, presunto e abacaxi.",
         "imagem": Havaiana
-    },
-    {
-
     },
     {
       "id": 4,
